@@ -1,0 +1,103 @@
+body {
+      background: black;
+}
+
+/* CABEÇALHO INICIO */
+h1.tpr {
+      text-align: center;
+      color: #5e2129;
+      text-shadow: white, 2px;
+}
+
+p.leitura {
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 14px;
+      color: white;
+}
+
+p.subtpr {
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 14px;
+      color: #5e2129;
+}
+
+address.DV {
+      color: white;
+}
+
+h1 {
+      text-align: center;
+      color: #5e2129;
+}
+
+#Carta {
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 14px;
+      color: white;
+}
+
+/* CABEÇALHO FIM */
+
+/* PAGES INICIO */
+img.nextL {
+      width: 250px;
+      height: 250px;
+      float: left;
+}
+
+img.nextC {
+      width: 250px;
+      height: 250px;
+      float: center;
+}
+    
+img.nextR {
+      width: 250px;
+      height: 250px;
+      float: left;
+}
+    
+img.nextP {
+      width: 250px;
+      height: 250px;
+}
+
+.container2{ 
+      background: whitesmoke;
+      width: 100px;
+      height: 100px;
+      margin-left: 825px;
+      border: #70252f, solid, 6px;
+}
+
+#PageRPG {
+      width: 400px;
+      height: 100px;
+      margin-left: 545px;
+      position: fixed;
+}
+
+#PageSistema {
+      width: 400px;
+      height: 100px;
+      margin-left: 825px;
+      position: fixed;
+}
+
+#PageWolgan {
+      width: 400px;
+      height: 100px;
+      margin-left: 1100px;
+      position: fixed;
+}
+
+#Page0 {
+      width: 100px;
+      height: 100px;
+      margin-left: 825px;
+      border: #5e2129, solid, white, 6px;
+}
+/* PAGES FIM */
