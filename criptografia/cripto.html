@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="cripto.css" media="screen"/>
+    <script src="cripto.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <section class="cabeçalho">
+            <h2 id="TITULO">Kripto o Criptoanálise</h2>
+        </section>
+    </div>
+
+    <div class="container2">
+        <section id="conteudo">
+
+            <h3>kripto irá criptografar seu texto!</h4>
+            <p>Digite o texto na caixa de respostas e clique em kriptografar!</p>
+            <textarea type=text id="txtKRIPTO" placeholder="Insira a palavra ou frase..."></textarea>
+            <br>
+            
+            <button id="KRIPTOGRAFA" name="KRIPTO" onclick="kripto();">KRIPTOGRAFAR</button>
+            <button id="DESKRIPTOGRAFA" name="DESKRIPTO" onclick="deskripto();">DESKRIPTOGRAFAR</button>
+
+            <br>
+            <br>
+            <p>Agora que o texto está kriptografado, você pode o copiar!</p>
+            <textarea type="text" id="txtDESKRIPTO" placeholder="Texto Kriptografado"></textarea>
+            <br>
+            <button id="ctrlc" name="copy" onclick="copiar();">COPIAR</button>
+
+        </section>
+    </div>
+
+</body>
+</html>
