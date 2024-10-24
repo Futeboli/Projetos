@@ -1,0 +1,85 @@
+:root{
+  --corPrincipal: #2d65b9;
+  --corSecundaria: #76afe4;
+  --corBtn: #808080;
+  --corFundo: lightgray;
+  --corInput: rgb(231, 228, 228);
+}
+
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 24%;
+    margin-bottom: 16px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.2);
+    width: 440px;
+    height: 250px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: inherit;
+    background: linear-gradient(rgba(245, 245, 245, 1), rgba(0, 0, 0, 0.2));
+  }
+  
+  .containerAbout {
+    padding: 0 10px;
+    right: 0;
+    font-size: 16px;
+  }
+  
+  .containerAbout::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+
+  .imgAbout {
+    width: auto;
+    height: 190px;
+    border-radius: 18px;
+  }
+
+  .sociais{
+    align-content: center;
+    background-color: var(--corfundo);
+    box-shadow: 2px 2px 3px;
+    font-size: 23px;
+    height: 40px;
+    padding: 5px 12px 12px;
+    border-radius: 5px;
+    width: auto;
+    margin-top: 180px;
+    margin-left: -220px;
+  }
+
+  .sociais:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 3px;
+    background-color: var(--corSecundaria);
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
